@@ -23,6 +23,12 @@ TB_CONTFIT was developed with:
 		-Pyfits version 3.3
 		Other versions of above packages may work...
 
+Installation of requirements:
+
+    python2.7 -m ensurepip --user
+    pip2 install --user -r requirements.txt
+
+
 Input file requirements:
 
     Input spectrum as a FITS file, with flux as data extension and headers CRVAL1, CDELT1, NAXIS1
